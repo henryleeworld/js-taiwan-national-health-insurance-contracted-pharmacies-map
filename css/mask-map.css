@@ -1,0 +1,298 @@
+html,.card,.info-area span,.btn-bot,table,.modal-title,.btn-dis,.btn-town{
+    font-family: "Microsoft JhengHei";
+}
+
+#load,#root,#mask-area,.mask-topic,#mask-adult,#mask-child,#googleMap-area,.info-area,.shade{
+    display: flex;
+    justify-content: center;  
+}
+
+#mask-area{
+    justify-content: space-around; 
+}
+
+#mask-area{
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+
+#load,#root,#mask-adult,#mask-child,.shade{
+    flex-direction:column;
+    align-items: center;   
+}
+
+#root{
+    overflow: hidden;
+}
+
+#load{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    font-family: "Microsoft JhengHei";
+    z-index: 1;
+}
+
+.text-info{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    position: absolute;
+    width: 35rem;
+    max-width: 100vw;
+    bottom: 0;
+    margin-bottom: 0;
+    z-index: 3;
+    display: none;
+}
+
+.card-body{
+    position: relative;
+    padding-bottom: 38px;
+}
+
+.card-title{
+    font-weight: 700;
+    
+}
+
+.card-subtitle{
+    margin-top: 0;
+}
+
+#mask-child,#mask-adult{
+    width: 70px;
+    height: 73px;
+    border-radius: 50px;
+    color: white;
+}
+
+#mask-adult{
+    background-color: rgb(242,153,75);
+
+}
+
+#mask-child{
+    background-color: rgb(242,153,75);
+}
+
+#load-topic-2{
+    display: none;
+}
+
+
+#mapid{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    z-index: 1;
+    overscroll-behavior-y: contain;
+}
+
+.option-area{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    bottom: 70px;
+    height: 60px;
+    border-radius: 150px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 60px;
+    outline: none;
+    z-index: 2;
+}
+
+.option-area:focus{
+    outline: none;
+}
+
+.info-area{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    max-width: 100vw;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid rgba(0,0,0,.125);
+    z-index: 2;
+}
+
+.info-area img{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.info-area span{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#close-card{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#googleMap-area{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 38px;
+}
+
+.btn-bot{
+    width:50%;
+    font-size: 15px;
+    border-radius: 0;
+}
+
+table{
+    text-align: center;
+}
+
+.bg-danger{
+    background-color: #ef5285;
+}
+
+.bg-info, .bg-danger{
+    color: white;
+}
+
+.modal-title,td{
+    font-weight: 700;
+}
+
+.btn-info.focus, .btn-info:focus,.btn-info.active, .btn-info:active  {
+    box-shadow: none;
+}
+
+#staright-line{
+    height: 30px;
+    position: absolute;
+    width: 2px;
+    border-radius: 5px;
+    background-color: rgb(242,153,75);
+}
+
+#line{
+    height: 1.5px;
+    position: absolute;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgb(242,153,75);
+}
+
+#circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 22px;
+    z-index: 2;
+    height: 22px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid rgb(242,153,75);
+}
+
+#circle-in{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    background-color: rgb(242,153,75);
+}
+
+.modal-content{
+    z-index: 15;
+}
+
+.shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 0;
+    display: none;
+}
+
+.content-header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content-box{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    max-width: 350px;
+}
+
+.option-area2{
+    bottom: 150px;
+}
+
+#outbox{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(242,153,75);
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid rgb(242,153,75); */
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#inbox1{
+    width: 2.5px;
+    height: 100%;
+    background-color: white;
+    margin-top: 0;
+}
+
+#inbox2{
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    background-color: white;
+}
+
+.btn-dis{
+    background-color: rgb(242,153,75);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+.btn-town{
+    background-color: #ef5285;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
